@@ -16,6 +16,9 @@
 		D786DC5522ECFA97009FC9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D786DC5322ECFA97009FC9BC /* LaunchScreen.storyboard */; };
 		D786DC6022ECFA98009FC9BC /* iOS_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786DC5F22ECFA98009FC9BC /* iOS_AnimationTests.swift */; };
 		D786DC6B22ECFB6D009FC9BC /* 7980-earth.json in Resources */ = {isa = PBXBuildFile; fileRef = D786DC6A22ECFB6D009FC9BC /* 7980-earth.json */; };
+		D7AEA80922ED288600DF4AFC /* UIVewAnimation_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEA80822ED288600DF4AFC /* UIVewAnimation_ViewController.swift */; };
+		D7AEA80B22ED29BF00DF4AFC /* Arrow-Down.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AEA80A22ED29BF00DF4AFC /* Arrow-Down.png */; };
+		D7AEA80D22ED2A4A00DF4AFC /* arrow_green_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7AEA80C22ED2A4A00DF4AFC /* arrow_green_right.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		D786DC5F22ECFA98009FC9BC /* iOS_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AnimationTests.swift; sourceTree = "<group>"; };
 		D786DC6122ECFA98009FC9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D786DC6A22ECFB6D009FC9BC /* 7980-earth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "7980-earth.json"; sourceTree = "<group>"; };
+		D7AEA80822ED288600DF4AFC /* UIVewAnimation_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVewAnimation_ViewController.swift; sourceTree = "<group>"; };
+		D7AEA80A22ED29BF00DF4AFC /* Arrow-Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Down.png"; sourceTree = "<group>"; };
+		D7AEA80C22ED2A4A00DF4AFC /* arrow_green_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrow_green_right.jpg; sourceTree = "<group>"; };
 		EB35918BE5D546AB8EE2177D /* Pods-iOS-Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Animation.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Animation/Pods-iOS-Animation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +117,11 @@
 		D786DC4922ECFA97009FC9BC /* iOS-Animation */ = {
 			isa = PBXGroup;
 			children = (
+				D7AEA80C22ED2A4A00DF4AFC /* arrow_green_right.jpg */,
+				D7AEA80A22ED29BF00DF4AFC /* Arrow-Down.png */,
 				D786DC6A22ECFB6D009FC9BC /* 7980-earth.json */,
 				D786DC4A22ECFA97009FC9BC /* AppDelegate.swift */,
+				D7AEA80822ED288600DF4AFC /* UIVewAnimation_ViewController.swift */,
 				D786DC4C22ECFA97009FC9BC /* ViewController.swift */,
 				D786DC4E22ECFA97009FC9BC /* Main.storyboard */,
 				D786DC5122ECFA97009FC9BC /* Assets.xcassets */,
@@ -217,8 +226,10 @@
 			files = (
 				D786DC6B22ECFB6D009FC9BC /* 7980-earth.json in Resources */,
 				D786DC5522ECFA97009FC9BC /* LaunchScreen.storyboard in Resources */,
+				D7AEA80D22ED2A4A00DF4AFC /* arrow_green_right.jpg in Resources */,
 				D786DC5222ECFA97009FC9BC /* Assets.xcassets in Resources */,
 				D786DC5022ECFA97009FC9BC /* Main.storyboard in Resources */,
+				D7AEA80B22ED29BF00DF4AFC /* Arrow-Down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +313,7 @@
 			files = (
 				D786DC4D22ECFA97009FC9BC /* ViewController.swift in Sources */,
 				D786DC4B22ECFA97009FC9BC /* AppDelegate.swift in Sources */,
+				D7AEA80922ED288600DF4AFC /* UIVewAnimation_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

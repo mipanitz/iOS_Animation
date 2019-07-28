@@ -9,6 +9,7 @@
 import UIKit
 import Lottie
 
+// This is for the Lottie animation:
 class ViewController: UIViewController {
     
     let animationView = AnimationView(name: "7980-earth")

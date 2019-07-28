@@ -81,6 +81,31 @@ class UIViewAnimation_ViewController: UIViewController {
                                     })
                                 },
                                 completion: nil)
-
     }
+    
+    
+    @IBOutlet weak var lblTitle: UILabel!
+    var animator: UIViewPropertyAnimator?;
+    @IBAction func btnControllableAnimation(_ sender: UIButton) {
+        if animator == nil {
+            animator = UIViewPropertyAnimator(
+                duration: 10.0,
+                curve: .easeInOut,
+                animations: {
+                    self.lblTitle.alpha = CGFloat(0)
+                    // Warning: Animating the backgroundColor didn't seem to work
+            })
+            
+            animator?.startAnimation()
+        }
+        else if let anim = animator {
+            if anim.isRunning == true {
+                anim.pauseAnimation()
+            }
+            else {
+                anim.startAnimation()
+            }
+        }
+    }
+
 }

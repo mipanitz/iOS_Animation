@@ -113,12 +113,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKi-WZ-9gX">
-                                <rect key="frame" x="11" y="784" width="383" height="78"/>
+                                <rect key="frame" x="11" y="784" width="170" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
-                                    <action selector="btnPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJJ-W3-Akf"/>
                                     <action selector="btnStartAnimation:" destination="eii-Hr-UUp" eventType="touchUpInside" id="a6y-Rt-2gM"/>
                                 </connections>
                             </button>
@@ -129,6 +128,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steps To Follow:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7My-76-uXQ">
                                 <rect key="frame" x="20" y="109" width="374" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.115093474" blue="0.55394743010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -161,12 +161,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJt-YN-U9F">
+                                <rect key="frame" x="219" y="784" width="170" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Play#2"/>
+                                <connections>
+                                    <action selector="btnControllableAnimation:" destination="eii-Hr-UUp" eventType="touchUpInside" id="Ay9-gQ-LB5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uh6-rF-n2K"/>
                     </view>
                     <connections>
                         <outlet property="imgArrow" destination="NDB-G0-LCT" id="bjB-rz-3hs"/>
+                        <outlet property="lblTitle" destination="7My-76-uXQ" id="hIv-qL-fDO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8w-9B-FcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
